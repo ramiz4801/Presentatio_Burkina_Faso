@@ -1,0 +1,147 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Grande Mosquée de Bobo-Dioulasso</title>
+	<style>
+		body{ margin:0; font-family:Arial sans-serif; text-align:center;}
+		h1{color:orange;}
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!---Logo et titre--->
+        <header style="background-color:pink;">
+	<h1> Bienvenue à Bobo-Dioulasso</h1>
+	<img src="mes_Images/image11.jpg" alt="Logo de la ville" width="100">
+	
+        <nav>
+	    	<a href="index.html">Accueil</a><br><br>
+	       	<a href="patrimoine.html">Patrimoine</a><br><br>
+	        <a href="reservation.html">Reservation</a><br><br>
+	        <a href="galerie.html">Galerie</a>
+	</nav>
+	</header>
+<h1>Découvrez de merveilleux hôtels dans cette belle ville de Bobo-Dioulasso</h1>
+<h2>Nous vous proposons de  merveilleux cadres de séjour  afin que vous pussiez profiter pleinement de votre séjour dans cette magnifique ville!!</h2>
+    <div class="hotel-list">
+        <div class="hotel">
+            <img src="mes_Images/image12.jpg" alt="photo12">
+            <div class="hotel-info">
+                <h3>Ran Hôtel</h3>
+                <p class="stars">★★★★★</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="mes_Images/image13.jpg" alt="photo13">
+            <div class="hotel-info">
+                <h3>Hôtel Sissima</h3>
+                <p class="stars">★★★★☆</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="mes_Images/image14.jpg" alt="photo14">
+            <div class="hotel-info">
+                <h3>Iba Hôtel</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="mes_Images/image15.jpg" alt="photo15">
+            <div class="hotel-info">
+                <h3>Hôtel Dioulassobâ</h3>
+                <p class="stars">★★★★☆</p>
+                
+            </div>
+        </div>
+        <div class="hotel">
+            <img src="mes_Images/image16.jpg" alt="photo16">
+            <div class="hotel-info">
+                <h3>Hôtel Villa Rose</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+
+        <div class="hotel">
+            <img src="mes_Images/image17.jpg" alt="photo17">
+            <div class="hotel-info">
+                <h3>Hôtel de Ville</h3>
+                <p class="stars">★★★☆☆</p>
+            </div>
+        </div>
+        
+    </div>
+
+
+ <main>
+        <section>
+            <h2><strong>Réservez votre Hôtel</strong></h2>
+            <form>
+                <label for="hotel">Sélectionnez l'Hôtel :</label>
+                <select id="hotel" name="hotel" required>
+                    <option value="" disabled selected>Choisissez un hôtel</option>
+                    <option value="photo12">Ran Hôtel - <p class="stars">★★★★★</p> </option>
+                    <option value="photo13">Hôtel Sissima - <p class="stars">★★★★☆</p> </option>
+                    <option value="photo14">Iba Hôtel- <p class="stars">★★★☆☆</p> </option>
+                    <option value="photo15">Hôtel Dioulassobâ - <p class="stars"><p>★★★★☆</option>
+                    <option value="photo16">Hôtel Villa Rose- <p class="stars">★★★☆☆</p> </option>
+		    <option value="photo17">Hôtel de Ville- <p class="stars">★★★☆☆</p> </option>
+                    
+                </select>
+
+	</ul>
+	<!---Reservation--->
+	<div class="reservation">
+	<p align="center">Faites votre réservation d'hôtel</p>
+		<form="reservation.php" method="POST">
+			<label for="Nom">Nom:</label><br>
+			<input type="text" id="nom" name="NOM" required>
+			<br><br>
+			<label for="Email">Email:</label><br>
+			<input type="email" id="email" name="Email" required>
+			<br><br>
+			<label for="Date-d'arrivée">Date d'Arrivée:</label><br>
+			<input type="number" id="checkin" name="Date d'Arrivée" required>
+			<br><br>
+			<label for="Date-Depart">Date de Depart:</label><br>
+			<input type="number" id="checkout" name="Date de Depart" required>
+			<br><br>
+			<label for="Nombre-Chambre">Nombre de chambres:</label><br>
+			<input type="number" id="rooms" name="Nombre de chambres" required>
+			<br><br>
+			<label for="Nombre-Personnes">Nombre de personnes:</label><br>
+			<input type="number" id="personnes" name="Nombre de personnes" required>
+			<br><br>
+			<label for="Moyen-Paiement">Moyen de paiement:</label><br>
+			<select id="Moyen-Paiement"  name="Moyen-Paiement" required>
+				<option value="carte">Carte de Credit</option>
+				<option value="moov">Moov Money</option>
+				<option value="pay-pal">Pay-Pal</option>
+				<option value="orange">Orange Money</option>
+				<option value="carte">Carte Bancaire</option>
+				</select>
+				
+				
+			<br><br>
+		<input type="submit" value="Réserver">
+		
+		</div>	
+		</form>
+		</section>
+</div>
+<!---pied de page--->
+  <footer style="background-color:pink;">
+	<p>SORE SAKINA & SANFO AICHATOU</P>
+          <p>&copy; 2025 Bobo-Dioulasso</p>
+        
+
+      </footer>
+
+      </div>
+</div>
+</body>
+</html>
+	
+	
